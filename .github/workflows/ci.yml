@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - name: Mostrar mensaje
-        run: echo "CI funcionando correctamente"
+        run: echo "CI ejecutado nuevamente"
