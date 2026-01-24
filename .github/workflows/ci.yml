@@ -13,7 +13,7 @@ jobs:
 
 
       - name: Dar permisos
-        run: chmod +x scripts/ci-test.sh
+        run: chmod +x ./scripts/ci-test.sh
 
 
 
