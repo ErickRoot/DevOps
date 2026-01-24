@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Ejecutar sript Bash
-        run: ./scripts/checar.sh
+      - name: Ejecutar script Bash
+        run: scripts/ci-test.sh
