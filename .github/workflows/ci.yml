@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Mostrar fecha
-        run: date
+      - name: Ejecutar sript Bash
+        run: ./scripts/checar.sh
