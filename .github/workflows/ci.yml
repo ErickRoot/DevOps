@@ -8,5 +8,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
+
+
+      - name: Dar permisos
+        run: chmod +x scripts/ci-test.sh
+
+
+
       - name: Ejecutar script Bash
-        run: scripts/ci-test.sh
+        run: ./scripts/ci-test.sh
