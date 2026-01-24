@@ -1,5 +1,4 @@
 - uses: actions/checkout@v4
-
 name: Primer CI
 
 on:
