@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Mostrar mensaje
-        run: echo "CI ejecutado nuevamente"
+      - name: Mostrar fecha
+        run: date
