@@ -1,10 +1,10 @@
-name: CI Vlidacion basica
+name: CI Docker Compose
 
 on:
   push:
 
 jobs:
-  validar:
+  compose-build:
     runs-on: ubuntu-latest
 
     steps:
@@ -12,5 +12,5 @@ jobs:
         uses: actions/checkout@v4
 
 
-      - name: Ejecutar validacion
-        run: ./scripts/validar.sh
+      - name: Construir servicios con Compose
+        run: docker compose build
